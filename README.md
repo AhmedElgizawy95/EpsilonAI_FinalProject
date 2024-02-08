@@ -13,7 +13,7 @@ Overview : This project predicts Annual Salary of Software Developers in United 
           columns to make more sense , Feature Engineering , Encoding. Then Performed Exploratory Data Analysis to find insights and answer few questions 
           about the data , and also to check for outliers if existed. After that I used     PyCaret     to find the best Machine Learning Model to be used with this Data 
           based on Root Mean Squarred Error and Mean Absolute Error.     Random Forest     For Regression Was Chosen and then I performed Hyperparameter Tuning to reach 
-          maximum accuracy that I could ( of course It wasn't the best My accuracy was 48% without dealing with outliers and 70+% when dealing with outliers , 
+          maximum accuracy that I could in less than a week ( of course It wasn't the best ) My accuracy  70+% , 
           Of course its depeatable here in this project as it needs lots of time to collect real data from different countries based on specilizations 
           and years of experience for 180 Country) . Then I used       Pipeline       to Perform the Data Cleaning of the user data automatically then Joblib to 
           make it an importable file to be used in Visual Studio Code with         Flask         . Then Deployed the project Locally but not yet deployed on Heroku.      
